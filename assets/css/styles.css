@@ -1,0 +1,385 @@
+#titulo2 {
+  color: #0B7FDE;
+}
+
+#titulo1 {
+  color: #0B7FDE;
+  font-size: 1.5rem;
+  padding-top: 0rem;
+}
+
+@media (min-width: 576px) {
+  #titulo1 {
+    color: #0B7FDE;
+    font-size: 2rem;
+    padding-top: 5rem;
+  }
+}
+
+#parrafo1 {
+  font-size: 1rem;
+  color: #0B7FDE;
+  margin-top: 2.2rem;
+  margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+  #parrafo1 {
+    margin-top: 3rem;
+  }
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  overflow-y: scroll;
+}
+
+@media (min-width: 768px) {
+  #unidades {
+    padding-top: 5rem;
+  }
+}
+
+#unidades {
+  width: 100%;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  #nosotros {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 576px) {
+  #cotizacion {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 576px) {
+  #contacto {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 576px) {
+  #calidad {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 576px) {
+  #clientes {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 576px) {
+  #beneficios {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 576px) {
+  #servicios {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 576px) {
+  #seguridad {
+    height: 100vh;
+  }
+}
+
+#nosotros {
+  width: 100%;
+  background-color: #EBEEF0;
+  padding-top: 5rem;
+}
+
+#cotizacion {
+  width: 100%;
+  background-color: #EBEEF0;
+  padding-top: 3rem;
+}
+
+#contacto {
+  width: 100%;
+  background-color: #EBEEF0;
+  padding-top: 3rem;
+}
+
+#seguridad {
+  width: 100%;
+  background-color: white;
+  padding-top: 5rem;
+}
+
+#calidad {
+  width: 100%;
+  background-color: #EBEEF0;
+  padding-top: 3rem;
+}
+
+#clientes {
+  width: 100%;
+  background-color: white;
+  padding-top: 7rem;
+}
+
+#parrafo2 {
+  color: #5D677A;
+  font-size: 1rem;
+}
+
+#cerficaciones {
+  width: 15rem;
+  margin: 0 auto;
+}
+
+#nosotros_tituto {
+  color: #0B7FDE;
+  padding-bottom: 1rem;
+}
+
+#nosostros_parrafo {
+  color: #525E73;
+  font-size: .9rem;
+}
+
+#seguridad_parrafo {
+  color: #525E73;
+  font-size: .9rem;
+}
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background-position: bottom;
+  background-image: url("../../assets/img/base_unidad.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#logo {
+  width: 70%;
+}
+
+.enlace_menu {
+  font-size: .9rem;
+  color: #97c9ff!important;
+}
+
+.enlace_menu:hover {
+  font-size: .9rem;
+  color: white!important;
+}
+
+#navcol-1 {
+  flex-grow: 0;
+}
+
+#barra_menu {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: #105dae;
+  top: 0;
+}
+
+#header_columna1 {
+  padding-right: 0;
+}
+
+@media (min-width: 768px) {
+  #header_columna2 {
+    padding-right: 50px;
+    padding-left: 0;
+  }
+}
+
+#contenedor_marca {
+  margin-right: 0;
+  width: 10rem;
+}
+
+#nosotros_columna1 {
+  padding-bottom: 2rem;
+}
+
+#contenedor_certificaciones {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+#contenedor_unidades {
+  padding-top: 0;
+}
+
+@media (min-width: 768px) {
+  #contenedor_unidades {
+    padding-top: 0rem;
+  }
+}
+
+#header_contenido {
+  padding-top: 6rem;
+}
+
+@media (min-width: 768px) {
+  #header_contenido {
+    padding-top: 0;
+  }
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+#servicios_titulo {
+  color: #0B7FDE;
+}
+
+#beneficios_titulo {
+  color: #0B7FDE;
+  padding-bottom: 2rem;
+}
+
+.servicios_subtitulo {
+  color: #0B7FDE;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.beneficios_subtitulo {
+  color: #5D677A;
+  margin-top: 1rem;
+  font-size: .9rem;
+}
+
+.servicios_icono {
+  color: rgb(56,129,215);
+  font-size: 3rem;
+}
+
+#beneficios_contenido1 {
+  /*margin-top: 3rem;*/
+}
+
+#beneficios_contenido2 {
+  /*margin-top: 1rem;*/
+}
+
+#servicios_contenido {
+  margin-top: 1rem;
+}
+
+.servicios_parrafo {
+  color: #525E73;
+  font-size: .8rem;
+}
+
+#servicios_parrafo_titulo {
+  margin-top: 1rem;
+  color: #525E73;
+  font-size: .9rem;
+}
+
+#servicios {
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 3rem;
+}
+
+#beneficios {
+  width: 100%;
+  background-color: #EBEEF0;
+  padding-top: 3rem;
+}
+
+#calidad_lista {
+  color: #525E73;
+}
+
+#seguridad_lista {
+  color: #525E73;
+  font-size: .9rem;
+}
+
+#nosotros_lista {
+  font-size: .8rem;
+}
+
+.calidad_items {
+  padding-bottom: 1em;
+  font-size: .9rem;
+}
+
+#calidad_columna1 {
+  padding-right: 1rem;
+}
+
+#contacto_formulario {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 7px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+#contacto_titulo {
+  color: #0B7FDE;
+  padding-bottom: .5rem;
+}
+
+#cotizacion_titulo {
+  color: #0B7FDE;
+  padding-bottom: 1rem;
+}
+
+#cotizacion_formulario {
+  max-width: 90%;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 7px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.beneficios_item {
+  padding-top: 1rem;
+}
+
+#seguridad_columna2 {
+  margin-left: 1rem;
+}
+
+#calidad_columna2 {
+  padding-bottom: 3rem;
+}
+
+#contacto_parrafo {
+  color: #525E73;
+  font-size: .9rem;
+}
+
+#ohsas18001 {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  #ohsas18001 {
+    max-width: 100%;
+  }
+}
+
